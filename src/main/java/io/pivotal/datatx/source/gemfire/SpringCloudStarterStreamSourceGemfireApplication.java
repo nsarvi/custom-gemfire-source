@@ -4,6 +4,7 @@ package io.pivotal.datatx.source.gemfire;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
+import org.springframework.data.gemfire.config.annotation.EnablePdx;
 import org.springframework.cloud.stream.app.gemfire.source.GemfireSourceConfiguration;
 
 @SpringBootApplication

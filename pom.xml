@@ -5,7 +5,7 @@
   <parent>
     <artifactId>spring-boot-starter-parent</artifactId>
     <groupId>org.springframework.boot</groupId>
-    <version>2.2.0.BUILD-SNAPSHOT</version>
+    <version>2.0.8.RELEASE</version>
     <relativePath></relativePath>
   </parent>
   <groupId>io.pivotal.datatx.cloud.stream.app</groupId>
