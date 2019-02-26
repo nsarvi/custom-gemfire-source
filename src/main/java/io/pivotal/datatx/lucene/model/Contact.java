@@ -1,8 +1,9 @@
 package io.pivotal.datatx.lucene.model;
 
+import java.io.Serializable;
 import java.util.Arrays;
 
-public class Contact  {
+public class Contact  implements Serializable {
 
     private String name;
     private String[] phoneNumbers;

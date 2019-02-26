@@ -1,8 +1,9 @@
 package io.pivotal.datatx.lucene.model;
 
+import java.io.Serializable;
 import java.util.Collection;
 
-public class EmployeeData {
+public class EmployeeData implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
